@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+<div id="encabezado" class="d-flex " >
+  <div class="p-2 bg-info d-flex justify-content-center flex-fill "> 
+    <h1>BANCO DE REBECA</h1>
+  </div>
+</div>
+
+<main class=" py-5">
+  <div class="container" id="contenedorIngreso">
+    <div id="box-usuarios" class=" row row-cols-1 row-cols-xl-3 row-cols-sm-1">
+
+      <div class="col mb-3">
+        <div class="card bg-success bg-opacity-25">
+          <div class="w-50 mx-auto d-block">
+            <img src="letra-m.png" class="card-img-top img-fluid object-fit" alt="...">
+          </div>
+          <div class="card-body text-center ">
+            <h5 class="card-title">MALI</h5>
+
+            <a href="#" id="botones_entrar1" class="btn btn-primary" onclick="desp_cont1();">Acceder a mi cuenta</a>
+            <div id="contraseña_input1" class="p-2">
+              <p>Ingresa tu contraseña</p>
+
+              <input type="text" id="contraseña1">
+              <button type="button" onclick="OK1()" id="bok1">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-3">
+        <div class="card bg-success bg-opacity-25">
+          <div class="w-50 mx-auto d-block">
+            <img src="letra-g.png" class="card-img-top img-fluid object-fit" alt="...">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title">GERA</h5>
+            <a href="#" id="botones_entrar2" class="btn btn-primary" onclick="desp_cont2();">Acceder a mi cuenta</a>
+            <div id="contraseña_input2" class="p-2">
+              <p>Ingresa tu contraseña</p>
+              <input type="text"  id="contraseña2">
+              <button type="button" onclick="OK2()"id="bok2">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-3">
+        <div class="card bg-success bg-opacity-25">
+          <div class="w-50 mx-auto d-block">
+            <img src="letra-m.png" class="card-img-top img-fluid object-fit" alt="...">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title">MAUI</h5>
+            <a href="#"  id="botones_entrar3" class="btn btn-primary" onclick="desp_cont3();">Acceder a mi cuenta</a>
+            <div id="contraseña_input3" class="p-2">
+              <p>Ingresa tu contraseña</p>
+              <input type="text"  id="contraseña3">
+              <button type="button" onclick="OK3()" id="bok3">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+
+
+<!-- <div class="container" id="contenedorOpciones">
+  <div id="box-options" class=" row row-cols-1 row-cols-xl-3 row-cols-sm-1">
+    <div class="col mb-3">
+      <div class="card bg-success bg-opacity-25">
+        <div class="card-body text-center ">
+          <a href="#"  class="btn btn-primary" >Consultar saldo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-3">
+      <div class="card bg-success bg-opacity-25">
+        <div class="card-body text-center">
+          <a href="#" class="btn btn-primary" >Ingresar monto</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-3">
+      <div class="card bg-success bg-opacity-25">
+        <div class="card-body text-center">
+          <a href="#" class="btn btn-primary" >Retirar monto</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div> -->
+
+
+<script src="dinero.js"></script>
+    </body>
+</html>

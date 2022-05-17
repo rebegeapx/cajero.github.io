@@ -1,0 +1,19 @@
+
+
+
+.object-fit{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#contraseña_input1{
+display: none;
+}
+#contraseña_input2{
+    display: none;
+}
+#contraseña_input3{
+    display: none;
+}
